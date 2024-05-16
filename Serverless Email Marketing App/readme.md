@@ -6,7 +6,7 @@ sending personalized emails to a list of contacts using AWS Lambda,
 Amazon S3, Amazon Simple Email Service (SES), Amazon EventBridge, and
 AWS Identity and Access Management (IAM).
 
-<img src="media/image1.png" style="width:3.37692in;height:1.96508in"
+<img src="Picture1.png" style="width:3.37692in;height:1.96508in"
 alt="A white letter in a circle Description automatically generated" />
 
 Here’s a comprehensive guide to the process:
@@ -83,7 +83,7 @@ that the Lambda function will assume.
     - Open the IAM console and create a new policy that grants
       permissions to access S3 and SES.
 
-    - <img src="media/image2.png" style="width:4.54007in;height:1.26152in"
+    - <img src="Picture2.png" style="width:4.54007in;height:1.26152in"
       alt="A screenshot of a computer Description automatically generated" />
 
 2.  **Attach the Policy to a Role**:
@@ -107,7 +107,7 @@ works correctly.
     - Monitor the logs to verify that emails are being sent
       successfully.
 
-> <img src="media/image3.png" style="width:3.88681in;height:1.52014in"
+> <img src="Picture3.png" style="width:3.88681in;height:1.52014in"
 > alt="A screenshot of a computer Description automatically generated" />
 
 **Step 6: Schedule the Lambda Function Using EventBridge**
@@ -122,7 +122,7 @@ function using Amazon EventBridge.
     - Set the schedule for your rule, specifying when you want the
       Lambda function to be triggered (e.g., daily at a specific time).
 
-    - <img src="media/image4.png" style="width:4.88354in;height:1.84391in"
+    - <img src="Picture4.png" style="width:4.88354in;height:1.84391in"
       alt="A screenshot of a computer Description automatically generated" />
 
 2.  **Add Lambda Function as Target**:
