@@ -9,9 +9,9 @@ network components, EC2 instances, and a LAMP server, followed by load
 balancing and database setup to create a fully functional and efficient
 web application infrastructure.
 
-<img src="media/image1.png" style="width:4.59198in;height:2.08424in" />
+<img src="threetier1.png" style="width:4.59198in;height:2.08424in" />
 
-<img src="media/image2.png" style="width:4.64592in;height:2.70849in"
+<img src="threetier2.png" style="width:4.64592in;height:2.70849in"
 alt="A screenshot of a computer Description automatically generated" />
 
 **Network Configuration**
@@ -61,5 +61,5 @@ By following these steps, you will establish a robust and scalable
 connectivity, secure access, load balancing, and comprehensive database
 management.
 
-<img src="media/image3.png" style="width:4.58875in;height:1.98426in"
+<img src="Picture3.png" style="width:4.58875in;height:1.98426in"
 alt="A screenshot of a computer Description automatically generated" />
