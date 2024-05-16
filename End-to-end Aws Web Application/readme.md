@@ -51,5 +51,5 @@ entries. A sample of our DynamoDB data demonstrates this functionality.
 5.  And with a simple refresh of our Amplify link, behold our Math
     Application in all its glory! Hooray!
 
-<img src="Picture7" style="width:5.17227in;height:2.51815in"
+<img src="Picture7.png" style="width:5.17227in;height:2.51815in"
 alt="A screenshot of a computer Description automatically generated" />
