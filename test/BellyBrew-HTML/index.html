@@ -1,0 +1,480 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BellyBrew</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/reset.css" rel="stylesheet" type="text/css">
+	<link href="css/veg-styles.css" rel="stylesheet">
+	<link href="css/veg-responsive.css" rel="stylesheet">
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+<script src="js/html5shiv.min.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.plugin.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+
+	<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+
+	<style type="text/css">
+		#dish_of_day {
+			color: #000;
+			
+    left: 50%;
+    position: absolute;
+    top: 41px;
+    width: 621px;
+    line-height: 40px;
+    margin-left: 44px;
+		}
+#dish_of_day1 {
+			color: #000;
+			margin: 20px;
+    left: 50%;
+    position: absolute;
+    top: 41px;
+    width: 621px;
+    line-height: 40px;
+    margin-left: 44px;
+		}
+
+		#dish_of_day h4,
+		#dish_of_day h5 {
+			margin: 10px;
+		}
+
+		#mc_embed_signup {
+			background: #fff;
+			clear: left;
+			font: 14px Helvetica, Arial, sans-serif;
+		}
+
+		#mc_embed_signup label.error {
+			margin-left: 0px !important;
+			color: indianred;
+		}
+
+		.coming-soon .desc {
+			padding: 60px 0 0 140px !important;
+		}
+.wrapper-8 {
+    float: left;
+    height: 460px;
+    margin: 0 35px 0 0;
+    position: relative;
+    width: 820px;
+}
+.text-10 {
+    float: left;
+    margin: 74px 0 0;
+    width: 532px;
+    color: #666666;
+    font-size: 2.5rem;
+}
+.text-style-2 {
+    font-weight: 600;
+    line-height: 70.8px;
+}
+.text-style-3 {
+    font-weight: 600;
+    line-height: 47.8px;
+}
+.text-style-4 {
+    line-height: 53.8px;
+}
+.l-constrained {
+    margin: 67px auto 0;
+    padding: 0 256px;
+    position: relative;
+    width: 1920px;
+}
+section.form.pb01 {
+    /* float: left; */
+   margin-top: 125px;
+    width: 527px;
+    color: #666666;
+    font-size: 2.5rem
+font-weight: 600;
+}
+
+{box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+	</style>
+
+</head>
+
+<body>
+
+<section class="logo">
+			<!-- logo-->
+			<section class="container">
+<aside class="desc">
+					<figure></figure>
+				</aside>
+				
+			</section>
+		</section><!-- ./logo-->
+	
+<section class="coming-soon3">
+			<!--coming soon-->
+			<section class="container clearfix">
+				<aside class="day-zone" id="main">
+					<div id="counter1" class="cf clearfix">
+						<!-- <div id="defaultCountdown"></div> -->
+						<div id="dish_of_day1">
+							<p style="
+    font-size: 36px;
+font-family: Oswald-Medium;
+  color: black;
+    margin-left: -238px;
+    margin-top: -45px;
+"><b>Good Gut Health – Solves All Your Health Issues</b>
+
+</p>
+						</div>
+					</div>
+				</aside>
+				<aside class="desc">
+					<figure><img src="images/Logo-BellyBrew.png" alt="" class="img-responsive" style=" 
+    margin-left: -100px;
+    margin-top: -77px;
+"></figure>
+				</aside>
+			</section>
+		</section><!-- ./coming soon-->
+
+
+
+
+	
+		
+		<section class="coming-soon">
+			<!--coming soon-->
+			<section class="container clearfix">
+				<aside class="day-zone" id="main">
+					<div id="counter1" class="cf clearfix">
+						<!-- <div id="defaultCountdown"></div> -->
+						<div id="dish_of_day">
+						
+						</div>
+					</div>
+				</aside>
+				<aside class="desc">
+				
+				</aside>
+			</section>
+		</section><!-- ./coming soon-->
+		<section class="coming-soon1">
+			<!--coming soon-->
+			<section class="container clearfix">
+				<aside class="day-zone" id="main">
+					<div id="counter1" class="cf clearfix">
+						<!-- <div id="defaultCountdown"></div> -->
+						<div id="dish_of_day">
+							<h5 style="font-size: 32px;font-family: Oswald-Regular;margin-top: -30px;">Coconut kefir is coconut water that has been fermented with kefir grains. Like dairy kefir, it provides fuel for the beneficial bacteria in your gut. These good bacteria fight potentially harmful bacteria as well as infection. They also help stimulate digestion and boost your immune system</h5>
+						</div>
+					</div>
+				</aside>
+				<aside class="desc">
+					
+				</aside>
+			</section>
+		</section><!-- ./coming soon-->
+
+<section class="signup1">
+			<!-- Signup-->
+			<section class="container">
+				<section class="signup-in">
+					<section class="row">
+						<aside class="col-md-7">
+							
+							<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="images/slider01.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">	
+  <div class="numbertext">2 / 3</div>
+  <img src="images/banner2.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="images/banner3.png" style="width:100%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+							</div>
+						</aside>
+						
+							<aside class="col-md-5">
+							<section class="form pb01">
+								<b><h2 style="font-size: 40px;font-family: Oswald-Semibold;/* margin-top: -30px; */">Revitalize Your Gut, Delight Your Taste Buds:
+</h2></b><h4 style="
+    font-size: 32px;
+    font-family: Oswald;
+">Nourishing Ready Meals for a Happy, Healthy You, From Our New Authentic Indian Recipes!
+</h4>
+								
+							</section>
+						</aside>
+						
+					</section>
+				</section>
+			</section>
+		</section><!-- ./Signup-->
+
+
+
+		<section class="signup">
+			<!-- Signup-->
+			<section class="container">
+				<section class="signup-in">
+					<section class="row">
+						<aside class="col-md-7">
+<h2>Grab a copy of our delicious gut-friendly recipes and start the new year making one promise to yourself-say it aloud now</h2>
+							<p style="color:gray;font-size: 36px;font-style: italic;font-family: cursive;text-align: center;">"I will love my gut"</p>
+							<div style="height: 237px;margin-top:10px;margin-right: -36px;background-image: url('images/smiley.png');background-repeat: no-repeat;width: 247px;margin-left: 150px;">
+							</div>
+							</div>
+						</aside>
+						<aside class="col-md-5">
+							<section class="form pb0">
+
+								<p style="
+    font-size: 27px;
+    text-align: center;
+    padding-top: 20px;
+">Signup for our free <br>Gut friendly recipe book<br></p>
+								<form id="form" novalidate="novalidate">
+									<section class="form-group">
+										<input type="text" name="name" placeholder="NAME" class="form-control valid"
+											aria-invalid="false"><label id="name-error" class="error" for="name"
+											style="display: none;"></label>
+									</section>
+									<section class="form-group">
+										<input type="text" name="email" placeholder="EMAIL" class="form-control valid"
+											aria-invalid="false"><label id="email-error" class="error" for="email"
+											style="display: none;"></label>
+									</section>
+
+									<div id="mce-responses" class="clear">
+										<div class="response" id="mce-response" style="display:none"></div>
+									</div>
+									<section class="btn-wrap">
+										<div class="clear">
+											<input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary" style="margin-left:0 !important;margin-top:10px;margin-bottom:20px;left: 99px;">
+										</div>
+
+									</section>
+									<script>
+										$("#form").validate({
+											rules: {
+												name: { required: true },
+												email: {
+													required: true,
+													email: true
+												}
+											},
+											submitHandler: function (form) {
+												$.ajax({
+													url: 'https://r4rqkau775.execute-api.us-east-1.amazonaws.com/submit',
+													method: 'POST',
+													data: $(form).serialize(),
+													success: function (resp) {
+														$("#mce-response").html('Thanks. We will get back to you shortly!').show();
+														$(form)[0].reset();
+													},
+													error: function (error) {
+														$("#mce-response").html('An error occured.').show();
+													}
+												})
+												//$(form).submit();
+											}
+										});
+									</script>
+								</form>
+							</section>
+						</aside>
+<div
+								style="min-height:350px;margin-top:10px;background-image: url('images/smiley.png'); background-repeat: no-repeat;">
+							</div>
+					</section>
+				</section>
+			</section>
+		</section><!-- ./Signup-->
+		<section class="month">
+			<!--Month-->
+			<section class="container">
+				<section class="row">
+					<aside class="col-sm-4">
+						<section class="month-item">
+							<figure><img src="images/green-vegan.png" alt="" class="img-responsive"></figure>
+							<h3>Dish of the Month</h3>
+							
+						</section>
+					</aside>
+					<aside class="col-sm-4">
+						<section class="month-item">
+							<figure><img src="images/fresh.png" alt="" class="img-responsive"></figure>
+							<h3>For Your Gut!</h3>
+							
+						</section>
+					</aside>
+					<aside class="col-sm-4">
+						<section class="month-item">
+							<figure><img src="images/employee.png" alt="" class="img-responsive"></figure>
+							<h3>Employee of the Month</h3>
+							
+						</section>
+					</aside>
+				</section>
+			</section>
+		</section><!-- ./Month-->
+		
+		<footer>
+			<!-- Footer-->
+			<section class="container">
+				<p>Copyright © 2024 BellyBrew®</p>
+			</section>
+		</footer><!-- ./Footer-->
+	</section>
+
+
+</body>
+
+</html>
