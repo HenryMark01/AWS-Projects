@@ -13,7 +13,7 @@ The Requirements:
 4.  Solution without any manual administration and management on
     servers.
 
-![](./media/image7.png){width="6.267716535433071in"
+![](./media/image71.png){width="6.267716535433071in"
 height="3.4305555555555554in"}
 
 Frontend Website & Recipe Book Storage: **Static website and Book
